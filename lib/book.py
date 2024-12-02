@@ -34,5 +34,3 @@ class Book:
             print("Flipping the page...wow, you read so fast!!!")
         except TypeError as e:
             print(f"Error associated with page number: {e}")
-
-book = Book("And Then There Were None", 272)
